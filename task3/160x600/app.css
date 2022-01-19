@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    
+    width: 160px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#border{
+    width: 160px;
+    height: 600px;
+    border:  1px solid;
+    position: absolute;
+       
+}
+#demo{
+    position: absolute;
+    width: 160px;
+    height: 600px;
+    opacity: 0.5;
+}
+#bg1{
+    position: absolute;
+    width: 154px;
+    height: 340px;
+    top: 37px;
+    left: 7px;
+    transform-origin: right;
+    transform: rotateY(90deg);
+}
+#bg2{
+    position: absolute;
+    width: 154px;
+    height: 280px;
+    top: 321px;
+    left: 0px;
+    transform-origin: left;
+    transform: rotateY(90deg);
+}
+#logo{
+    position: absolute;
+    width: 83px;
+    height: 26px;
+    top: 16px;
+    right: 14px;
+    transform: scale(0);
+}
+#text1{
+    position: absolute;
+    color: white;
+    top: 107px;
+    left: 49px;
+    font-size: 22px;
+    letter-spacing: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform-origin: top;
+    transform: rotateX(90deg);
+}
+#text2{
+    position: absolute;
+    color: #e85b15;
+    top: 139px;
+    left: 31px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform: translateX(-30px);
+    opacity: 0;
+}
+#text3{
+    position: absolute;
+    color: white;
+    top: 160px;
+    font-weight: 600;
+    left: 61px;
+    font-size: 20px;
+    letter-spacing: -3px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(18px);
+    opacity: 0;
+}
+#text4{
+    
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    top: 217px;
+    left: 15px;
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: right;
+    transform: translateY(-38px);
+    opacity: 0;
+
+}
+
+
+#circle{
+    position: absolute;
+    top: 308px;
+    left: 54px;
+    opacity: 0;
+    
+    
+}
+#cta{
+    position: absolute;
+    top: 510px;
+    left: 38px;
+    width: 108px;
+    height: auto;
+    transform: scale(0);
+}
+#btext{
+    position: absolute;
+    bottom: 29px;
+    right: 13px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transform: translateY(-20px);
+    opacity: 0;
+
+}
+
+
+
